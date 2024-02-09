@@ -1,0 +1,296 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border: 2px solid grey;
+    border-radius: 5px;
+  }
+  
+  nav ul li a:hover {
+    background-color: white;
+    color: black;
+  }
+  
+
+  
+  .background-image {
+    background-image: url('background.jpg');
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+  }
+  
+  .content {
+    text-align: center;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: yellow;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  
+  .services {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .service {
+    flex: 1;
+  }
+  
+  .yellow-box {
+    background-color: yellow;
+    color: black;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .transparent-box {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .contact-section {
+    position: relative;
+  }
+  
+  .contact-section .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('contact-background.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+  }
+  .service img {
+    width: 200px;
+    height: 300px;
+  }
+  /* Add this CSS code to your existing styles.css file */
+
+.services-section h1 {
+  margin-top: 10px; /* Adjust the top margin */
+}
+.home-section {
+  background-image: url('images/yeah.jpg'); /* Replace 'your-background-image.jpg' with the path to your desired background image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Set the height of the section to 100% of the viewport height */
+}
+
+body {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+.content {
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with 50% opacity */
+  padding: 20px; /* Add padding to the content */
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  border: none; /* Add this line to remove any border */
+}
+.logo {
+  max-width: 100px; /* Adjust the maximum width of the logo */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ensures the main section takes up the full viewport height */
+}
+
+.home-section {
+  background-image: url('images/yeah.jpg'); /* Replace 'your-background-image.jpg' with the path to your desired background image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%; /* Ensure the section takes up the full width */
+}
+
+.content {
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with 50% opacity */
+  padding: 20px; /* Add padding to the content */
+  text-align: center; /* Center-align text horizontally */
+}
+/* Ensure the main section takes up the full viewport height */
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+/* Ensure the content is at the bottom of the page */
+.home-section {
+  background-image: url('images/yeah.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.content {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 300px;
+  text-align: center;
+}
+
+/* Ensure the logo remains at the top */
+.logo {
+  max-width: 100px;
+  height: auto;
+}
+/* Adjust the size of the heading */
+.home-section h1 {
+  font-size: 35px; /* Adjust the font size as needed */
+}
+
+.home-section h2 {
+  font-size: 50px; /* Adjust the font size as needed */
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.btn {
+  font-size: 20px; /* Adjust the font size as needed */
+  padding: 15px 30px; /* Adjust the padding as needed */
+}
+/* Ensure the main section takes up the full viewport height */
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Set the height of the section to 100% of the viewport height */
+}
+
+/* Set the background image and properties */
+.services-section {
+  background-image: url('images/yeah.jpg'); /* Replace 'images/yeah.jpg' with the path to your desired background image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%; /* Ensure the section takes up the full width */
+}
+
+/* Add styling for the content within the services section */
+.services-section .content {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Adjust the size of the heading */
+.services-section h1 {
+  font-size: 36px; /* Adjust the font size as needed */
+}
+
+/* Adjust the size of the subheading */
+.services-section h2 {
+  font-size: 24px; /* Adjust the font size as needed */
+}
+
+/* Adjust the size of the button text */
+.services-section .btn {
+  font-size: 20px; /* Adjust the font size as needed */
+  padding: 15px 30px; /* Adjust the padding as needed */
+}
+/* Set the color of the "Our Services" header to white */
+.services-section h1 {
+  color: white;
+}
+/* Add a box around each service */
+.service {
+  border: 2px solid grey;
+  padding: 20px;
+  margin-bottom: 20px; /* Add some space between services */
+}
+/* Make the yellow box semi-transparent */
+.yellow-box {
+  background-color: rgba(255, 255, 0, 0.5); /* Adjust the alpha (opacity) value as needed */
+  color: black; /* Ensure text color is readable */
+  padding: 20px;
+  margin-top: 20px;
+}
+/* Adjust the size and color of the service title */
+.services-section .service p.title {
+  font-size: 25px; /* Adjust the font size as needed */
+  color: white; /* Set the color to white */
+}
+
+/* Adjust the size and color of the service description */
+.services-section .service p.description {
+  font-size: 20px; /* Adjust the font size as needed */
+  color: white; /* Set the color to white */
+}
+/* Apply Poppins font to the body */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Apply Poppins font to headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Apply Poppins font to paragraphs */
+p {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Apply Poppins font to navigation links */
+nav ul li a {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Apply Poppins font to buttons */
+.btn {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Apply Poppins font to any other elements as needed */
+
